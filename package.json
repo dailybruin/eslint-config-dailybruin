@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "format": "yarn prettier"
+  },
   "dependencies": {
     "eslint-config-kentcdodds": "14.0.4",
-    "pluggable-babel-eslint": "^0.3.0"
+    "pluggable-babel-eslint": "0.3.0",
+    "semantic-release": "15.13.2"
   }
 }
